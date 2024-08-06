@@ -64,7 +64,7 @@ scaler = StandardScaler()
 X_train = scaler.fit_transform(X_train)
 X_test = scaler.transform(X_test) #make sure there is no bias and scale all of the data. Only training the X because it is the input
 ```
-
+#### Implementing KNN Algorithm
 Now, we can implement the KNN algorithm in training. The model used is the K-Nearest Neighbors (KNN) classifier with the following parameters:
 n_neighbors=10: Number of neighbors to use.
 p=2: The power parameter(P=2) corresponding to the Euclidean distance.
